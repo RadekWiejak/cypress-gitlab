@@ -1,0 +1,15 @@
+{
+  "name": "cypress-gitlab",
+  "version": "1.0.0",
+  "description": "Cypress tests with GitLab",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "author": "Radek Wiejak",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "typescript": "^4.8.3"
+  }
+}
