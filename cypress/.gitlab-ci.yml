@@ -1,0 +1,11 @@
+stages:          # List of stages for jobs, and their order of execution
+  - test
+
+test:       # This job runs in the build stage, which runs first.
+  image: cypress/browsers:node16.16.0-chrome105-ff104-edge
+  stage: test
+  script:
+    - npm ci
+    - npm run cy:run:chrome
+    - npm run cy:run:edge
+
