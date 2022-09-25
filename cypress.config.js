@@ -5,6 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://automationintesting.online/'
+    baseUrl: 'https://automationintesting.online/',
+    video: false,
+    screenshotOnRunFailure :false
   },
 });
